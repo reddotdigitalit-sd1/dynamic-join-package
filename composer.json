@@ -1,0 +1,22 @@
+{
+    "name": "reddotdigitalit/dynamic-join",
+    "description": "A package for joining multiple tables dynamically",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "tightenco/ziggy": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RedDotDigitalIT\\DynamicJoin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RedDotDigitalIT\\DynamicJoin\\DynamicJoinServiceProvider"
+            ]
+        }
+    }
+}
