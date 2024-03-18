@@ -1,6 +1,6 @@
 <?php
 
-namespace RedDotDigitalIT\DynamicJoin\Models;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -9,10 +9,10 @@ class Report extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'view', 'users'];
+    protected $fillable = ['name', 'report_details', 'users'];
 
     protected $casts = [
-        'view' => 'array',
+        'report_details' => 'array',
         'users' => 'array',
     ];
 }

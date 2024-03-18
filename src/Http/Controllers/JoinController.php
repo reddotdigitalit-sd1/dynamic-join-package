@@ -86,24 +86,20 @@ class JoinController extends Controller
 
     public function processForm(Request $request)
     {
-        //TODO: add validation for non selected column
         $users = $request['users'];
-        if (empty($request['users'])) {
+        if (empty ($request['users'])) {
             $users = [];
         }
         $name = $request['name'];
         $data = $request->except(['_token', 'table', 'users', 'name']);
-        if (!isset($data['joins'])) {
+        if (!isset ($data['joins'])) {
             $data['joins'] = [];
         }
         // dd($data);
 
-        Report::create(['view' => $data, 'name' => $name, 'users' => $users]);
+        Report::create(['report_details' => $data, 'name' => $name, 'users' => $users]);
         echo "<pre>";
 
         return redirect('/view-report-list');
-        // unset($request['_token']);
-        // unset($request['table']);
-        // print_r($request->all());
     }
 }

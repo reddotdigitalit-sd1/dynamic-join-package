@@ -1,9 +1,8 @@
 <?php
-
 namespace RedDotDigitalIT\DynamicJoin\Http\Controllers;
+use RedDotDigitalIT\DynamicJoin\Models\Report;
 
 use Illuminate\Http\Request;
-use RedDotDigitalIT\DynamicJoin\Models\Report;
 use DB;
 
 class ViewReportListController extends Controller
