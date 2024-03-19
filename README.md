@@ -53,4 +53,5 @@ To test the package, follow these steps:
    ```bash
    composer dump-autoload
 3. Run the development server
-   ```php artisan serve
+   ```bash
+   php artisan serve
