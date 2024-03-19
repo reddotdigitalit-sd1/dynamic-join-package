@@ -35,10 +35,8 @@ To use this package in your Laravel project, follow these steps:
     ],
     ```
 
-4. **Test the Package**: You can now test the functionality provided by the package within your Laravel project. This may include using routes, views, controllers, and any other features provided by the package.
+4. **Publish Package Resources**: You have to publish the package's views, public assets and migration file using the `php artisan vendor:publish` command with the appropriate tag.
 
-5. **Publish Package Resources**: You have to publish the package's views, public assets and migration file using the `php artisan vendor:publish` command with the appropriate tag.
-      - Publish views, public assets and migration file:
       ```bash
       php artisan vendor:publish --provider="RedDotDigitalIT\DynamicJoin\DynamicJoinServiceProvider"
       ```
