@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
     });
     addButton.addEventListener("click", cloneTable);
-    let closeButtons = document.querySelectorAll(".close-button");
+    let closeButtons = document.querySelectorAll(".closeButton");
     closeButtons.forEach(function (button) {
         button.addEventListener("click", deleteTable);
     });
