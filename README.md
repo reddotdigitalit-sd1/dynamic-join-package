@@ -2,12 +2,13 @@
 
 This Laravel package provides dynamic joining functionality for Laravel projects.
 
+## Prerequisites
+
+The package is in the development phase. So, the minimum stability of the package is set to "dev". Go to your project's composer.json file. Set the minimum stability from "stable" to "dev".
+
 ## Installation from GitHub
 
 To use this package in your Laravel project, follow these steps:
-
-## Prerequisites
-The package is in the development phase. So, the minimum stability of the package is set to "dev". Go to your project's composer.json file. Set the minimum stability from "stable" to "dev".
 
 To use this package in your Laravel project, follow these steps:
 
