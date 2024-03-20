@@ -32,16 +32,7 @@ To use this package in your Laravel project, follow these steps:
     composer update
     ```
 
-3. **Register the Service Provider**: Open the `config/app.php` file of your Laravel project and add the package's service provider to the `providers` array:
-
-    ```php
-    'providers' => [
-        // Other service providers...
-        RedDotDigitalIT\DynamicJoin\DynamicJoinServiceProvider::class,
-    ],
-    ```
-
-4. **Publish Package Resources**: You have to publish the package's views, public assets and migration file using the `php artisan vendor:publish` command with the appropriate tag.
+3. **Publish Package Resources**: You have to publish the package's views, public assets and migration file using the `php artisan vendor:publish` command with the appropriate tag.
 
       ```bash
       php artisan vendor:publish --provider="RedDotDigitalIT\DynamicJoin\DynamicJoinServiceProvider"
@@ -53,9 +44,6 @@ To test the package, follow these steps:
 1. Run migrations: 
    ```bash
    php artisan migrate
-2. Update composer autoloader
-   ```bash
-   composer dump-autoload
-3. Run the development server
+2. Run the development server
    ```bash
    php artisan serve
