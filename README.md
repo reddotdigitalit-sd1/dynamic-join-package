@@ -6,8 +6,6 @@ This Laravel package provides dynamic joining functionality for Laravel projects
 
 To use this package in your Laravel project, follow these steps:
 
-To use this package in your Laravel project, follow these steps:
-
 1. **Require the Package**: Add the repository URL and package name to your project's `composer.json` file under the `"repositories"` and `"require"` sections.
 
     ```json
