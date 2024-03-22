@@ -44,4 +44,5 @@ To test the package, follow these steps:
    ```bash
    php artisan serve
 3. URL path
+   ```bash
    localhost:8000/view-report-list
