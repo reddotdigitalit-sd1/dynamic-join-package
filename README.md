@@ -43,3 +43,5 @@ To test the package, follow these steps:
 2. Run the development server
    ```bash
    php artisan serve
+3. URL path
+   localhost:8000/view-report-list
