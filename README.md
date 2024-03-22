@@ -28,7 +28,7 @@ To use this package in your Laravel project, follow these steps:
     composer update
     ```
 
-3. **Publish Package Resources**: You have to publish the package's views, public assets and migration file using the `php artisan vendor:publish` command with the appropriate tag.
+3. **Publish Package Resources**: You have to publish the package's views, public assets and migration file using the `php artisan vendor:publish` command.
 
       ```bash
       php artisan vendor:publish --provider="RedDotDigitalIT\DynamicJoin\DynamicJoinServiceProvider"
