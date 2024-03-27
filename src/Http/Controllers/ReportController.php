@@ -1,9 +1,8 @@
 <?php
-
-namespace App\Http\Controllers;
+namespace RedDotDigitalIT\DynamicJoin\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Report;
+use RedDotDigitalIT\DynamicJoin\Models\Report;
 use App\Models\User;
 use DB;
 
